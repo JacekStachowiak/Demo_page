@@ -1,6 +1,5 @@
 from locators import locators
 from selenium.webdriver.common.keys import Keys
-
 class MyAccountPage:
     
     def __init__(self, driver):
