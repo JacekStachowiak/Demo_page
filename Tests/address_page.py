@@ -1,6 +1,5 @@
 from selenium.webdriver.support.select import Select
 from locators import AddressLocators
-
 class AddressPage:
     
     def __init__(self, driver):

@@ -2,7 +2,6 @@ import random
 import pytest
 from my_account_page import MyAccountPages
 
-
 @pytest.mark.usefixtures('setup')
 class TestCreateAccount:
     def test_create_account_failed(self):

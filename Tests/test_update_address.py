@@ -3,6 +3,7 @@ import random
 from address_page import AddressPage
 from my_account_page import MyAccountPages
 @pytest.mark.usefixtures('setup')
+
 class TestUpdateAddress:
   
     def test_update_address(self):
